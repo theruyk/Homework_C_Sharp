@@ -1,0 +1,15 @@
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/bin/Debug/net6.0/HW Seminar2
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/bin/Debug/net6.0/HW Seminar2.deps.json
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/bin/Debug/net6.0/HW Seminar2.runtimeconfig.json
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/bin/Debug/net6.0/HW Seminar2.dll
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/bin/Debug/net6.0/HW Seminar2.pdb
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/obj/Debug/net6.0/HW Seminar2.csproj.AssemblyReference.cache
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/obj/Debug/net6.0/HW Seminar2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/obj/Debug/net6.0/HW Seminar2.AssemblyInfoInputs.cache
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/obj/Debug/net6.0/HW Seminar2.AssemblyInfo.cs
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/obj/Debug/net6.0/HW Seminar2.csproj.CoreCompileInputs.cache
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/obj/Debug/net6.0/HW Seminar2.dll
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/obj/Debug/net6.0/refint/HW Seminar2.dll
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/obj/Debug/net6.0/HW Seminar2.pdb
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/obj/Debug/net6.0/HW Seminar2.genruntimeconfig.cache
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar2/obj/Debug/net6.0/ref/HW Seminar2.dll
