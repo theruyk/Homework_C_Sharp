@@ -66,13 +66,28 @@ Console.WriteLine($"Distance AB is {dist}");
 */
 
 
-
-
-
-
-
-
-
 // Напишите программу, которая принимает на вход число
 // N и выдает таблицу кубов чисел от 1 до N.
+
+
+void Cube(int num)
+{
+    int current = 1;
+    while (current <= num)
+{
+        double res = Math.Pow (current, 3);
+        Console.Write($" {res}, ");
+        current ++;
+        }
+        Console.WriteLine($"\b\b.");
+}
+Console.WriteLine ("Input number: ");
+int number = Convert. ToInt32(Console. ReadLine());
+
+if (number >= 1)
+{
+    Console.Write($" {number} -> ");
+    Cube (number);
+}
+else Console.WriteLine("Imposible number!");
 
