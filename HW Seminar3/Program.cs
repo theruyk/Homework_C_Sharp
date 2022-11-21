@@ -75,7 +75,8 @@ void Cube(int num)
     int current = 1;
     while (current <= num)
 {
-        double res = Math.Pow (current, 3);
+        double res = Math.Pow (current, 3); 
+        //double res = current * current * current;
         Console.Write($" {res}, ");
         current ++;
         }
