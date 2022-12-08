@@ -1,0 +1,15 @@
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/obj/Debug/net6.0/HW Seminar8.csproj.AssemblyReference.cache
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/obj/Debug/net6.0/HW Seminar8.GeneratedMSBuildEditorConfig.editorconfig
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/obj/Debug/net6.0/HW Seminar8.AssemblyInfoInputs.cache
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/obj/Debug/net6.0/HW Seminar8.AssemblyInfo.cs
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/obj/Debug/net6.0/HW Seminar8.csproj.CoreCompileInputs.cache
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/bin/Debug/net6.0/HW Seminar8
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/bin/Debug/net6.0/HW Seminar8.deps.json
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/bin/Debug/net6.0/HW Seminar8.runtimeconfig.json
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/bin/Debug/net6.0/HW Seminar8.dll
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/bin/Debug/net6.0/HW Seminar8.pdb
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/obj/Debug/net6.0/HW Seminar8.dll
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/obj/Debug/net6.0/refint/HW Seminar8.dll
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/obj/Debug/net6.0/HW Seminar8.pdb
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/obj/Debug/net6.0/HW Seminar8.genruntimeconfig.cache
+/Users/the_ryuk/Desktop/Homeworks/HW Seminar8/obj/Debug/net6.0/ref/HW Seminar8.dll
