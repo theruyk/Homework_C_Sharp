@@ -86,10 +86,6 @@ int[,] CreateArray(int row, int column, int min, int max)
 
 void ShowArray(int[,] array)
 {
-  if (array.GetLength(0) == array.GetLength(1))
-    Console.WriteLine("array is not rectangular");
-  else
-  {
     for (int i = 0; i < array.GetLength(0); i++)
     {
       for (int j = 0; j < array.GetLength(1); j++)
@@ -99,7 +95,6 @@ void ShowArray(int[,] array)
       Console.WriteLine();  // переход на новую строку
     }
     Console.WriteLine(); // отступ от массива 
-  }
 }
 int[] SumResult(int[,] CreatedArray)
 {
@@ -147,13 +142,18 @@ int min = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input max num ");
 int max = Convert.ToInt32(Console.ReadLine());
 
-int[,] CreatedArray = CreateArray(rows, columns, min, max);
+
+if (rows ==columns)
+    Console.WriteLine("array is not rectangular");
+  else
+{int[,] CreatedArray = CreateArray(rows, columns, min, max);
 ShowArray(CreatedArray);
 
 SumResult(CreatedArray);
 ShowArray1(SumResult(CreatedArray));
 
 MaxOfRows(SumResult(CreatedArray));
+}
 
 
 
