@@ -64,6 +64,8 @@ ShowArray(CreatedArray);
 //Задача 56: Задайте прямоугольный двумерный массив.
 //Напишите программу, которая будет находить строку с наименьшей суммой элементов.
 
+/*
+
 void ShowArray1(int[] array)
 {
   for (int i = 0; i < array.Length; i++)
@@ -154,14 +156,7 @@ ShowArray1(SumResult(CreatedArray));
 
 MaxOfRows(SumResult(CreatedArray));
 }
-
-
-
-
-
-
-
-
+*/
 
 
 //Задача 58(дополнительно): Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
@@ -173,3 +168,70 @@ MaxOfRows(SumResult(CreatedArray));
 
 
 //Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
+
+int[,] SpiralArray(int row, int column)
+{
+  int[,] SpiralArray1 = new int[row, column];
+  int num = 1;
+  int iMin = 0;
+  int iMax = row;
+  int jMin = 0;
+  int jMax = column;
+  while (iMin < iMax && jMin < jMax)
+  {
+    int i = iMin;
+    int j = jMin;
+    for (j = jMin; j < jMax; j++)
+    {
+      SpiralArray1[i, j] = num;
+      num++;
+    }
+    j = jMax - 1;
+    for (i = iMin + 1; i < iMax; i++)
+    {
+      SpiralArray1[i, j] = num;
+      num++;
+    }
+    i = iMax - 1;
+    for (j = jMax - 2; j >= jMin; j--)
+    {
+      SpiralArray1[i, j] = num;
+      num++;
+    }
+    j = jMin;
+    for (i = iMax - 2; i > iMin; i--)
+    {
+      SpiralArray1[i, j] = num;
+      num++;
+    }
+  iMin++;
+  jMin++;
+  iMax--;
+  jMax--;
+}
+  return SpiralArray1;
+}
+
+
+void ShowArray(int[,] array)
+{
+  for (int i = 0; i < array.GetLength(0); i++)
+  {
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+      Console.Write(array[i,j] + "\t"); // вывод значений
+    }
+    Console.WriteLine();  // переход на новую строку
+  }
+  Console.WriteLine(); // отступ от массива 
+}
+
+Console.Write("Input count of rows: ");
+int row = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Input count of columns: ");
+int column = Convert.ToInt32(Console.ReadLine());
+
+int[,] array = SpiralArray(row, column);
+ShowArray(array);
+
